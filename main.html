@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: rgb(201, 6, 48);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(201, 6, 48);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        main hr {
+            border: 0;
+            background-color: pink;
+            height: 1.3px;
+            margin: 60px 79px;
+        }
+
+        nav div ul li a {
+            text-decoration: none;
+            color: whitesmoke;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(216, 101, 181);
+            font-size: 1.5rem;
+        }
+
+        .left {
+            font-size: 1.9rem;
+            color: whitesmoke;
+            letter-spacing: 2px;
+            font-style: oblique 40deg;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+
+            margin: 130px 0;
+            align-items: center;
+
+            /* width: 50%; */
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            text-align: center;
+            /* top:120px;*/
+
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: red;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        
+
+
+        .rightSection img {
+            width: 80%;
+            margin: 40px 0;
+            /* border-radius: 30%; */
+            /* border: 2px solid rgb(246, 39, 215); */
+            background-origin: unset;
+            box-shadow: 10px 10px 10px rgb(241, 39, 133);
+
+        }
+
+        .purple {
+            color: whitesmoke;
+        }
+
+        .text-gray {
+            color: grey;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.8rem;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 85px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: whitesmoke;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        .right a:hover {
+            font-size: larger;
+            color: whitesmoke;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 45px;">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a href="main.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="education.html">
+                        <li>Education</li>
+                    </a>
+                    <a href="projects.html">
+                        <li>Projects</li>
+                    </a>
+                    <a href="courses.html">
+                        <li>Courses</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Contact me</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi! My name is <span class="purple"><br>Luv Astik</span>
+
+            </div>
+            <div class="rightSection">
+                <img src="mypic.JPG" alt="Image">
+            </div>
+
+
+
+
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have so far..</span>
+            <h3>Work Experience</h3>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.jpg" alt="">
+                    <div class="vertical-title">
+                        Web Developer
+                    </div>
+                    <div class="vertical-desc">
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="app.jpg" alt="">
+                    <div class="vertical-title">
+                        Application Developer
+                    </div>
+                    <div class="vertical-desc">
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Luv's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+           
+        </div>
+        <div class="footer-rights">
+            Copyright &#169: Luv's Portfolio. All rights reserved.
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.jsQ2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+            typespeed: 50,
+        });
+
+    </script>
+
+</body>
+
+</html>
